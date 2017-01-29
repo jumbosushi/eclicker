@@ -5,17 +5,18 @@
 }
 
 .button-t {
-    width: 80px;
-    height: 20px;
+    width: 400px;
+    height: 300px;
     display: block;
     font-family: Arial, "Helvetica", sans-serif;
-    font-size: 14px;
+    font-size: 60px;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 1px 1px 0px #2389AF;
+    vertical-align: middle;
+    text-shadow: 3px 3px 0px #2389AF;
     padding: 8px 20px 4px 10px;
     margin-left: auto;
     margin-right: auto;
@@ -26,20 +27,52 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     background: #50C4F0;
     -webkit-border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
     -moz-border-radius-topright: 5px;
     -moz-border-radius-bottomright: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    -webkit-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
-    -moz-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     -o-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
-    box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
+    box-shadow: inset 0px 1px 0px #50C4F0, 0px 10px 0px 0px #2593BD;
 }
-
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from body
+<style>…</style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+Pseudo ::before element
+<style>…</style>
+.button-t::before {
+    content: url(http://www.mshaefer.com/wp-content/themes/zwin/images/social_twitter.png);
+    width: 18px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    margin-left: -37px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(143, 209, 234);
+    text-shadow: rgb(7, 82, 110) 1px 1px 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: rgb(80, 196, 240) 0px 1px 0px inset, rgb(31, 119, 151) 0px 5px 0px 0px;
+    padding: 5px;
+    border-right: 1px solid rgb(46, 164, 207);
+    background: rgb(34, 168, 218);
+  }
 .button-t:active {
     top: 3px;
     -webkit-box-shadow: inset 0px 1px 0px #50C4F0, 0px 2px 0px 0px #2593BD;
@@ -51,7 +84,7 @@
 .button-t:before {
     content: url(http://www.mshaefer.com/wp-content/themes/zwin/images/social_twitter.png);
     width: 18px;
-    height: 22px;
+    height: 302px;
     display: block;
     position: absolute;
     padding: 5px;
@@ -72,7 +105,7 @@
     -webkit-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
     -moz-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
     -o-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
-    box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
+    box-shadow: inset 0px 1px 0px #50C4F0, 0px 10px 0px 0px #1F7797;
 }
 
     .button-t:active:before {
