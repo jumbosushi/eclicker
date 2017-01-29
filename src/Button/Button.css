@@ -75,7 +75,7 @@
     box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
 }
 
-.button-t:active:before {
+    .button-t:active:before {
     top: -3px;
     -webkit-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797, 1px 1px 0px 0px #2593BD, 2px 2px 0px 0px #2593BD, 2px 5px 0px 0px #2593BD, 6px 4px 2px #0b698b;
     -moz-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797, 1px 1px 0px 0px #2593BD, 2px 2px 0px 0px #2593BD, 2px 5px 0px 0px #2593BD, 6px 4px 2px #0b698b;
