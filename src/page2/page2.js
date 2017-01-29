@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './page1.css';
-class Page1 extends Component {
+import './page2.css';
+class Page2 extends Component {
   render() {
     return (
 
-      <div className="page1">
+      <div className="page2">
         <div className="top-wrap">
           <div className="top">
             <h1> Create </h1>
@@ -22,4 +22,4 @@ class Page1 extends Component {
   }
 }
 
-export default Page1;
+export default Page2;
